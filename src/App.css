@@ -1,0 +1,140 @@
+.app-shell{
+  width:100vw;
+  height:100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-shell{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100vw;
+  height:10vh;
+  background-color: rgba(68,112,173,255);
+  color:white;
+}
+
+.header-title{
+  font-size: 32px;
+  margin-left: 1.5%;
+  font-weight: 700;
+}
+
+
+
+.main-area{
+  color:white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height:90vh;
+}
+
+
+
+.selection-field{
+  width:800px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  overflow-y: scroll;
+
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  width:40%;
+}
+.submit-button{
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 10%
+
+}
+
+.right-side{
+  margin-top: 2%;
+  width:700px;
+}
+
+
+.output-area{
+  display: flex;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding:2%;
+  height:575px;
+  border: 2px solid white;
+}
+
+.text-area{
+  width:60%;
+  border-right: 1px solid white;
+  overflow-y: scroll;
+}
+
+.text-area textarea{
+  display: flex;
+  align-items: start;
+  width:90%;
+  height:50%;
+  margin-top:5%;
+  margin-left: 3.5%;
+  background-color: black;
+}
+
+.text-area button{
+  margin-left: 20%;
+}
+
+.keywords-area li{
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.results{
+  width: 40%;
+  margin-left: 2%;
+  overflow-y: scroll;
+}
+.results h1{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.step{
+  margin: 2%;
+}
+.step h1{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+@media  only screen and (max-width:1200px){
+  .header-nav-options{
+      width:70%;
+  }
+  .header-nav-options p{
+      font-size: 12px;
+  }
+
+
+}
+
+@media  only screen and (max-width:800px){
+  .header-nav-options p{
+      display: none;
+  }
+
+  .header-nav-options{
+      width:50%;
+  }
+
+}
